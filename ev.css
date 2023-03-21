@@ -1,0 +1,146 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+
+/*.content {
+background-color: black;
+height: 9%;
+width: 100%;
+}
+*/
+
+
+/*.content .nav {
+    width: 100%;
+    height: 11vh;
+    background-color: black;
+}
+
+.nav ul {
+    list-style: none;
+}
+
+.content .nav .center li {
+    margin-left: 60px;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    float: left;
+    text-decoration: none;
+    padding-top: 10px;
+}
+
+.content .nav .center li a {
+    color: wheat;
+    text-decoration: none;
+}
+
+.content .nav .center {
+    margin-left: 400px;
+}
+
+.content .nav ul li .a1 {
+    border: 1px solid;
+    text-decoration: none;
+    position: absolute;
+    right: 20px;
+    border-radius: 20px;
+    color: white;
+    background-color: orangered;
+    width: 120px;
+    height: 35px;
+    margin-top: 15px;
+    font-size: 17px;
+    text-align: center;
+}
+*/
+
+.id {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img/m1.webp);
+    background-attachment: fixed;
+}
+
+.id .id1 {
+    width: 100%;
+    height: 100vh;
+    color: blue;
+    overflow: hidden;
+}
+
+.id .id1 img {
+    width: 100%;
+    font-size: 100% 100%;
+    position: absolute;
+}
+
+.id .id1 P {
+    top: 300px;
+    left: 570px;
+    color: white;
+    position: relative;
+    font-size: 20px;
+}
+
+@media(max-width:320px) {
+    .id .id1 P {
+        left: 100px;
+    }
+}
+
+.id .id1 h1 {
+    top: 300px;
+    left: 550px;
+    color: white;
+    position: relative;
+    font-size: 35px;
+}
+
+@media(max-width:320px) {
+    .id .id1 h1 {
+        top: 305px;
+        left: 80px;
+    }
+}
+
+.id .id1 h3 {
+    top: 310px;
+    left: 30px;
+    color: white;
+    position: relative;
+    font-size: 35px;
+}
+
+@media(max-width:320px) {
+    .id .id1 h3 {
+        top: 330px;
+        left: 35px;
+        font-size: 7px;
+    }
+}
+
+
+/*---------------------------------------------------------------*/
+
+.id .id1 button {
+    top: 310px;
+    left: 550px;
+    background-color: orangered;
+    color: white;
+    position: relative;
+    width: 200px;
+    font-size: 27px;
+    border-radius: 25px;
+}
+
+ul {
+    list-style: none;
+}
+
+.ps {
+    margin-top: 70px;
+}

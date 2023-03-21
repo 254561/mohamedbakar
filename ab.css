@@ -1,0 +1,150 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.id {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img/m1.webp);
+    background-attachment: fixed;
+}
+
+.id .id1 {
+    width: 100%;
+    height: 100vh;
+    color: blue;
+    overflow: hidden;
+}
+
+.id .id1 img {
+    width: 100%;
+    font-size: 100% 100%;
+    position: absolute;
+}
+
+.id .id1 P {
+    top: 300px;
+    left: 550px;
+    color: white;
+    position: relative;
+    font-size: 20px;
+}
+
+@media(max-width:320px) {
+    .id .id1 P {
+        left: 100px;
+    }
+}
+
+.id .id1 h1 {
+    top: 300px;
+    left: 550px;
+    color: white;
+    position: relative;
+    font-size: 35px;
+}
+
+@media(max-width:320px) {
+    .id .id1 h1 {
+        top: 305px;
+        left: 80px;
+    }
+}
+
+.id .id1 h3 {
+    top: 300px;
+    left: 30px;
+    color: white;
+    position: relative;
+    font-size: 35px;
+}
+
+@media(max-width:320px) {
+    .id .id1 h3 {
+        top: 330px;
+        left: 35px;
+        font-size: 10px;
+    }
+}
+
+
+/*---------------------------------------------------------------*/
+
+.id .id1 button {
+    top: 310px;
+    left: 500px;
+    background-color: orangered;
+    color: white;
+    position: relative;
+    width: 200px;
+    font-size: 27px;
+    border-radius: 25px;
+}
+
+.p1 {}
+
+.hh span {
+    color: orangered;
+}
+
+.v {
+    border: 1px solid;
+    margin-left: 35px;
+    height: 40vh;
+    width: 270px;
+}
+
+.v p {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.v:hover {
+    background-color: orangered;
+}
+
+.im2 {
+    width: 300px;
+}
+
+.im3 {
+    width: 300px;
+}
+
+.im1 {
+    width: 300px;
+}
+
+.iv {
+    width: 100%;
+    height: 80vh;
+    background-color: oldlace;
+}
+
+@media(max-width:320px) {
+    .v {
+        margin-left: 13px;
+    }
+}
+
+.iv p {
+    text-align: center;
+}
+
+.iv h2 {
+    text-align: center;
+}
+
+.iv h5 {
+    text-align: center;
+}
+
+.ps {
+    margin-top: 80px;
+    padding-bottom: 30px;
+}
+
+ul {
+    list-style: none;
+}
